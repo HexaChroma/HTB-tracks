@@ -34,10 +34,12 @@ Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft
 3. Looking at the webserver and found out PRTG NETMON is installed
 >	Stumble upon official documentation and learn that this app stores old config data
 >	Using FTP to reach and download the conf
+>	
 >	![](docs/ftp.png)
 
 4. Open the xml bak file
 >	Found possible cred
+>	
 >	![](docs/cred.png)
 
 5. Try FTP with prtgadmin:PrTg@dmin2018
@@ -46,6 +48,7 @@ Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft
 6.	Lets get back to login page (netmon.htb/index.htm)
 >	Using prtgadmin:PrTg@dmin2018 and fail
 >	Using prtgadmin:PrTg@dmin2019 Success!
+>	
 >	![](docs/loginpage.png)
 
 7.	find further vulnerability in current version
