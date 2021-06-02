@@ -2,7 +2,7 @@
 ## Writeup by Hexachroma
 
 1. nmap -sC -sV -oN nmap/init 10.10.10.152 -v 
-```
+```java
 21/tcp  open  ftp          Microsoft ftpd                              
 | ftp-anon: Anonymous FTP login allowed (FTP code 230)
 | 02-03-19  12:18AM                 1024 .rnd                          
